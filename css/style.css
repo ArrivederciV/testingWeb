@@ -1,0 +1,46 @@
+/* selector{
+    property : value
+} */
+/************************************TAG selectors***********************************/
+body {
+    background-color: rgb(178, 218, 216);
+}
+hr{
+    /* background-color: rgb(11, 221, 134); */
+    border-style: none;
+    border-top: 2px dotted rgb(92, 87, 87);
+    /* height: 2px; */
+    width: 10%;
+    border-width: 5px;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+h1{
+    color: #66BFBF;
+    
+}
+h3{
+    color: #66BFBF;
+    text-shadow: 3px 3px 5px rgb(2, 0, 0);
+    font-size: 25px;
+}
+h1:hover{
+    color:gold;
+}
+/************************************CLASS selectors***********************************/
+/*can use class on multiple things as group*/
+
+.persname{
+    text-shadow: 2px 2px 2px rgb(2, 0, 0);
+    font-size: 40px;
+}
+.circular{
+    border-radius: 100%;
+}
+/************************************ID selectors***********************************/
+/*only 1 id can be made*/
+/* #heading{
+
+} */
